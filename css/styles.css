@@ -1,5 +1,6 @@
 * {
-
+    margin: 0;
+    padding: 0;
 }
 body {
     background-color: rgb(135, 80, 68);
@@ -18,19 +19,13 @@ footer{
     padding: 10px;
     margin: 0px;
 }
-ul {
-    background-color: rgb(215, 163, 151);
-    color: rgb(82, 28, 15);
-    font-size: 20px;
-    padding: 75px 0px 0px 50px
-}
 ol {
     background-color: rgb(215, 163, 151);
     color: rgb(82, 28, 15);
     margin: 0px;
-    height: 250px;
+    height: 200px;
     font-size: 20px;
-    padding: 90px 0 40px 50px;
+    padding: 25px 0px 25px 50px;
 }
 h2 {
     background-color: rgb(114, 53, 39);
@@ -49,14 +44,14 @@ a {
     color: white;
 }
 nav {
-    height: 45px;
+    height: 55px;
 }
 .menu-superior ul {
     list-style-type: none;
     /*Garante que nada saia dos limites do menu*/
     overflow: hidden; 
     text-align: center;
-    padding: 5px 0px 0px 0px;
+    background-color: rgb(215, 163, 151);
 }
 
 .menu-superior li {
@@ -72,7 +67,7 @@ nav {
     display: block; 
     color: rgb(82, 28, 15);
     text-align: center;
-    padding: 109px 42px;
+    padding: 18px 42px;
     text-decoration: none;
 }
 
@@ -81,4 +76,11 @@ nav {
     background-color: rgb(82, 28, 15);
     color: rgb(215, 163, 151);
     border-radius: 20px;
+}
+
+.texto-ul {
+    background-color: rgb(215, 163, 151);
+    color: rgb(82, 28, 15);
+    font-size: 20px;
+    padding: 25px 0px 25px 50px;
 }
